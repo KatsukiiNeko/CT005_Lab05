@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Infographic và video về lợi ích của công nghệ số trong học tập.">
+	<title>Lợi ích của công nghệ số trong học tập</title>
+	<style>
+		:root {
+			color-scheme: light;
+			font-family: "Segoe UI", Arial, sans-serif;
+			color: #172554;
+			background: #eef3ff;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 40px 20px;
+		}
+
+		main {
+			width: min(100%, 900px);
+			margin: 0 auto;
+			padding: clamp(24px, 5vw, 48px);
+			background: #ffffff;
+			border-top: 6px solid #315fdb;
+			box-shadow: 0 18px 50px rgba(23, 37, 84, 0.1);
+		}
+
+		header {
+			margin-bottom: 36px;
+		}
+
+		h1 {
+			margin: 0 0 12px;
+			color: #173b9a;
+			font-size: clamp(2rem, 5vw, 3.25rem);
+			line-height: 1.12;
+		}
+
+		header p {
+			max-width: 680px;
+			margin: 0;
+			color: #4b5875;
+			font-size: 1.08rem;
+			line-height: 1.65;
+		}
+
+		section + section {
+			margin-top: 42px;
+		}
+
+		h2 {
+			margin: 0 0 16px;
+			color: #173b9a;
+			font-size: 1.45rem;
+		}
+
+		figure {
+			margin: 0;
+		}
+
+		figure img {
+			display: block;
+			width: min(100%, 560px);
+			height: auto;
+			margin: 0 auto;
+		}
+
+		.video-frame {
+			position: relative;
+			width: 100%;
+			aspect-ratio: 16 / 9;
+			background: #101827;
+		}
+
+		.video-frame iframe {
+			position: absolute;
+			inset: 0;
+			width: 100%;
+			height: 100%;
+			border: 0;
+		}
+
+		.fallback {
+			margin: 12px 0 0;
+			color: #4b5875;
+			line-height: 1.6;
+		}
+
+		a {
+			color: #1749c5;
+			text-underline-offset: 3px;
+		}
+
+		footer {
+			margin-top: 40px;
+			padding-top: 18px;
+			border-top: 1px solid #dbe3f4;
+			color: #59657e;
+			font-size: 0.9rem;
+			line-height: 1.65;
+		}
+
+		footer p {
+			margin: 4px 0;
+		}
+
+		@media (max-width: 520px) {
+			body {
+				padding: 16px 10px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Lợi ích của công nghệ số trong học tập</h1>
+			<p>Khám phá cách công nghệ giúp người học tiếp cận kiến thức linh hoạt, cá nhân hóa trải nghiệm và kết nối hiệu quả hơn.</p>
+		</header>
+
+		<section aria-labelledby="infographic-title">
+			<h2 id="infographic-title">Infographic</h2>
+			<figure>
+				<img src="Lab05_Ex2.1.png" alt="Infographic trình bày bốn lợi ích của công nghệ số trong học tập: học mọi lúc mọi nơi, kho tài liệu phong phú, cá nhân hóa và tăng tương tác." loading="lazy">
+			</figure>
+		</section>
+
+		<section aria-labelledby="video-title">
+			<h2 id="video-title">Video</h2>
+			<div class="video-frame">
+				<iframe
+					src="https://www.youtube-nocookie.com/embed/Vjc811H_lAs"
+					title="Video về công nghệ số trong học tập trên YouTube"
+					loading="lazy"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin"
+					allowfullscreen>
+				</iframe>
+			</div>
+			<p class="fallback">Nếu video không phát được, hãy <a href="https://youtu.be/Vjc811H_lAs" target="_blank" rel="noopener noreferrer">xem trực tiếp trên YouTube</a>.</p>
+		</section>
+
+		<footer>
+			<p><strong>Nguồn infographic:</strong> Lab05_Ex2.1.png; ghi chú trên ảnh: tạo bởi Canva AI, hình ảnh từ Unsplash (Unsplash License).</p>
+			<p><strong>Video:</strong> Video: Pexels / Tự quay | Music: FreeSound (CC0) | CapCut</p>
+			<p><strong>Ghi chú AI:</strong> HTML được tạo với sự hỗ trợ của GitHub Copilot; nội dung infographic và video được ghi nguồn riêng ở trên.</p>
+		</footer>
+	</main>
+</body>
+</html>
